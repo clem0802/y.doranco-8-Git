@@ -1,0 +1,35 @@
+-INTRODUCTION à GIT
+-GIT: un mot en anglais méprisable et déplaisant
+-Linus Torvalds: créateur de GIT et LINUX (linux est un système d'exploitation)
+-GIT: VCS (version Control System) => système de contrôle des versions
+
+Cycle de vie d'un fichier
+-cycle de vie d'un fichier MONO-UTILISATEUR
+
+-un Snapshot (une capture)
+ID, AUTEUR, DATE, TITRE, MESSAGE
+
+-attention: CSV=> est un fichier Excel
+
+-au tout début, pour télécharger GIT:
+https://git-scm.com/download/win
+
+---------------------------------------------------------------(Git Bash)
+git bash === terminal de mac
+-d'abord, créer un dossier git-github
+-ensuite, aller sur le dossier à l'intérieur duquel on veut créer des fichiers, clique droit, puis Git Bash
+- touch index.html (créer un fichier dont le nom index et l'extension .html)
+- rm index.html (supprimer le fichier index.html)
+- mkdir gitEx (créer un dossier "gitEx")
+- rmdir gitEx (supprimer un dossier "gitEx")
+
+---------------------------------------------------------------(Git Config)
+-configurer le git
+git config --global user.name "prenom nom"
+git config --global user.email "mon mail"
+code .  (depuis le terminal, commande pour ouvrir les fichiers depuis vscode)
+git config -l (pour LISTER)
+clear (pour vider les commandes, ou Ctrol C)
+git config --global -e (ça ouvre sur vscode, on peut modifier les infos)
+git init (initialiser le repository)
+-
